@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Colors 
+white: "#ebebeb",
+black: "#1f1f30",
+yellow: "#f9e606",
+orange: "#f2b538",
+red: "#f74040",
+blue: "#2b38b0",
+cyan: "#40bcd0",
+pink: "#f57474",
+*/
+/* Fonts
+Roobert-Bold,sans-serif
+Roobert-Med,sans-serif
+merriweather,serif
+*/
+/* --- Font sizes --- small
+-- Hero --
+48.03px p
+
+-- Subscribe --
+30px header h2
+16px button
+
+
+-- Revenue --
+30px header h2
+20px p text (medium-large)
+16px h3
+16px button
+
+-- Music publishing --
+30px header h2
+20px h3
+16px button
+
+-- Music marketing --
+30px header h2
+18px h3
+20px p text
+18px p strong
+18px li
+18px a
+16px button
+
+-- Testimonials --
+30px header h2
+18px blockquotes
+18px p testimonial
+15px div testimonial
+
+-- Banner --
+30px header h2
+15px button
+16px text p
+18px subheader strong p
+-- Footer --
+14px text
+
+
+*/
+
+/* Spacers 
+padding
+15 25 30 40 16 36 10 13 35 60 20
+margin
+12 14 30 25 20
+*/
+
+/* Breakpoints
+480px
+680px
+(min-width: 768px) and (max-width: 1139px)
+*/

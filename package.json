@@ -1,0 +1,23 @@
+{
+  "name": "cdbaby",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000c\u0000d\u0000b\u0000a\u0000b\u0000y\u0000-\u0000w\u0000e\u0000b\u0000s\u0000i\u0000t\u0000e\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./public/css/style.css -o ./public/css/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mabillama/cdbaby-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mabillama/cdbaby-website/issues"
+  },
+  "homepage": "https://github.com/mabillama/cdbaby-website#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.0"
+  }
+}

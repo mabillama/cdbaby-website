@@ -566,6 +566,10 @@ video {
   margin-right: 1rem;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -615,6 +619,14 @@ video {
   padding-right: 1rem;
 }
 
+.align-middle {
+  vertical-align: middle;
+}
+
+.font-\[\'Roobert-Bold\'\] {
+  font-family: 'Roobert-Bold';
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -628,8 +640,6 @@ video {
   --tw-text-opacity: 1;
   color: rgb(31 31 48 / var(--tw-text-opacity));
 }
-
-/* blor */
 
 /* Colors 
 white: "#ebebeb",
@@ -647,6 +657,12 @@ Roobert-Bold,sans-serif
 Roobert-Med,sans-serif
 merriweather,serif
 */
+
+@font-face {
+  font-family: Roobert-Bold;
+
+  src: url("../../font/Roobert-Bold.otf");
+}
 
 /* --- Font sizes --- small
 -- Hero --
@@ -706,3 +722,24 @@ margin
 680px
 (min-width: 768px) and (max-width: 1139px)
 */
+
+/* Media queries */
+
+/* Nav */
+
+@media screen and (min-width: 1139px) {
+  nav .hamburguer {
+    display: none;
+  }
+}
+
+.mobile-nav {
+  height: 100vh;
+  width: 250px;
+  position: fixed;
+  /* background-color: pink; */
+}
+
+.mobile-nav-list {
+  padding-left: 20px;
+}

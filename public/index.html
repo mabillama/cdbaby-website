@@ -10,7 +10,24 @@
   <body>
     <header>
       <nav class="bg-black text-white">
-        <div id="nav-wrapper" class="flex p-6 mx-6 justify-between">
+        <div
+          id="nav-wrapper"
+          class="flex p-6 mx-6 justify-between font-['Roobert-Bold']"
+        >
+          <span class="hamburguer"
+            ><button
+              id="tablet-hamburger"
+              aria-label="Show Navigation Menu"
+              aria-expanded="false"
+              tabindex="0"
+              class=""
+            >
+              <svg viewBox="0 0 100 80" width="40" height="40" fill="cyan">
+                <rect width="100" height="15" rx="4"></rect>
+                <rect y="30" width="100" height="15" rx="4"></rect>
+                <rect y="60" width="100" height="15" rx="4"></rect>
+              </svg></button
+          ></span>
           <div class="logo">
             <svg
               data-name="CD Baby logo Blue"
@@ -61,6 +78,126 @@
           </button>
         </div>
       </nav>
+
+      <!-- Mobile Nav Div -->
+      <div class="mobile-nav bg-black text-white">
+        <header class="flex justify-between align-middle">
+          <span class="hamburguer"
+            ><button
+              id="tablet-hamburger"
+              aria-label="Show Navigation Menu"
+              aria-expanded="false"
+              tabindex="0"
+              class=""
+            >
+              <svg viewBox="0 0 100 80" width="30" height="30" fill="cyan">
+                <rect width="100" height="15" rx="4"></rect>
+                <rect y="30" width="100" height="15" rx="4"></rect>
+                <rect y="60" width="100" height="15" rx="4"></rect>
+              </svg></button
+          ></span>
+          <a href="#" onclick="return false;">GET STARTED</a>
+          <button class="">
+            <img src="assets/icon-language.webp" alt="" />
+          </button>
+        </header>
+        <button
+          class="py-2 px-4 bg-orange text-black font-bold rounded-md mr-4"
+        >
+          GET STARTED
+        </button>
+        <ul class="mobile-nav-list">
+          <li>
+            <a class="block" href="#" onclick="return false;"
+              >Music Distribution</a
+            >
+            <div class="mobile-nav-submenu">
+              <ul class="mobile-nav-list">
+                <li>
+                  <a class="block" href="#" onclick="return false;"
+                    >Trending and Analytics</a
+                  >
+                </li>
+                <li>
+                  <a class="block" href="#" onclick="return false;"
+                    >Cover Song Licensing</a
+                  >
+                </li>
+                <li>
+                  <a class="block" href="#" onclick="return false;">Make CDs</a>
+                </li>
+                <li>
+                  <a class="block" href="#" onclick="return false;"
+                    >CD Baby Stages</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a class="block" href="#" onclick="return false;"
+              >Boost Your Income</a
+            >
+          </li>
+          <div class="mobile-nav-submenu">
+            <ul class="mobile-nav-list">
+              <li>
+                <a class="block" href="#" onclick="return false;"
+                  >CD Baby Pro Publishing</a
+                >
+              </li>
+              <li>
+                <a class="block" href="#" onclick="return false;"
+                  >License Your Music</a
+                >
+              </li>
+              <li>
+                <a class="block" href="#" onclick="return false;"
+                  >Social Video Monetization</a
+                >
+              </li>
+            </ul>
+          </div>
+          <li>
+            <a class="block" href="#" onclick="return false;"
+              >Promote Your Music</a
+            >
+          </li>
+          <div class="mobile-nav-submenu">
+            <ul class="mobile-nav-list">
+              <li><a class="block" href="#" onclick="return false;"
+                >Bandzoogle</a
+              ></li>
+              <li><a class="block" href="#" onclick="return false;"
+                >HearNow</a
+              ></li>
+              <li><a class="block" href="#" onclick="return false;"
+                >Show.co</a
+              ></li>
+              <li><a class="block" href="#" onclick="return false;"
+                >Internet Radio Airplay</a
+              ></li>
+              <li><a class="block" href="#" onclick="return false;"
+                >Free Musician Guides</a
+              ></li>
+              <li><a class="block" href="#" onclick="return false;"
+                >DIY Musician Blog</a
+              ></li>
+              <li><a class="block" href="#" onclick="return false;"
+                >DIY Musician Podcast</a
+              ></li>
+            </ul>
+          </div>
+          <li><a class="block" href="#" onclick="return false;">Pricing</a></li>
+          <div class="mobile-nav-submenu">
+            <ul class="mobile-nav-list">
+              <li><a class="block" href="#" onclick="return false;"
+                >UPC Barcode</a
+              ></li>
+              
+          </div>
+        </ul>
+      </div>
     </header>
   </body>
 </html>

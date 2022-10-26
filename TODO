@@ -5,3 +5,26 @@
 next project https://www.taskade.com/
 
 - What if the client doesn't have javascript enabled?
+
+NAVBAR
+
+- Basic styling for main navbar (basis/justify/padding/margin)
+- Responsive behavior (when hitting media queries)
+- Hover dropdown navigation for the main navbar
+- Language dropdown
+- Animate side menu (in and out)
+- Basic styling for side navbar (basis/justify/padding/margin)
+- Hover for buttons
+- Refactor classes (for buttons, mostly)
+- Refactor CSS
+
+Navbar is probably the most difficult part of the site. Interesting one to work on
+
+SIDE NAV
+
+[OK]- toggle button disappears from nav and goes to side nav
+
+- side nav disappears when button is toggled
+- sub options appear on +
+
+[OK] navbar, options disappear

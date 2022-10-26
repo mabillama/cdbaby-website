@@ -85,8 +85,17 @@ margin
 /* Media queries */
 
 /* Nav */
-@media screen and (min-width: 1139px) {
+@media screen and (min-width: 1140px) {
   nav .hamburguer {
+    display: none;
+  }
+  nav .nav-md {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1139px) {
+  nav .nav-lg {
     display: none;
   }
 }
@@ -100,4 +109,21 @@ margin
 
 .mobile-nav-list {
   padding-left: 20px;
+}
+
+#nav-wrapper {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+#sideNav.mobile-nav {
+  transition: left 0.3s;
+  left: 0px;
+}
+
+#sideNav.sideNavClosed {
+  visibility: hidden;
+  transition: left 0.3s, visibility 0.5s;
+  position: absolute;
+  left: -250px;
 }

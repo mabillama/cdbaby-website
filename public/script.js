@@ -8,6 +8,9 @@ hamburguerButton.addEventListener("click", showSideBar);
 
 const hamburguerSpanContent = document.querySelector(".hamburguer").innerHTML;
 const hamClasses = document.querySelectorAll(".hamburguer");
+const navElement = document.querySelector("nav");
+
+console.log(navElement);
 
 function showSideBar(e) {
   console.log("clicked");
@@ -17,9 +20,11 @@ function showSideBar(e) {
   if (JSON.stringify(sideNavClasses.classList).includes("sideNavClosed")) {
     hamClasses[0].removeChild;
     hamClasses[1].append(hamburguerButton);
+    navElement.classList.add("nav-push");
   } else {
     hamClasses[1].removeChild;
     hamClasses[0].append(hamburguerButton);
+    navElement.classList.remove("nav-push");
   }
   sideNavClasses.classList.toggle("sideNavClosed");
 }

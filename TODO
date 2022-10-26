@@ -23,8 +23,9 @@ Navbar is probably the most difficult part of the site. Interesting one to work 
 SIDE NAV
 
 [OK]- toggle button disappears from nav and goes to side nav
+[OK] side nav disappears when button is toggled
 
-- side nav disappears when button is toggled
 - sub options appear on +
-
-[OK] navbar, options disappear
+  [OK] navbar, options disappear
+  [OK] toggle button alignment on navbar
+  [OK] add transition to nav

@@ -750,6 +750,12 @@ merriweather,serif
   src: url("../../font/Roobert-Bold.otf");
 }
 
+@font-face {
+  font-family: Roobert-Regular;
+
+  src: url("../../font/Roobert-Regular.ttf");
+}
+
 /* --- Font sizes --- small
 -- Hero --
 48.03px p
@@ -954,4 +960,9 @@ nav li a {
 nav li a:focus {
   outline: 2px auto #ebebeb;
   outline-offset: -2px;
+}
+
+.dropdown a {
+  font-family: Roobert-Regular, sans-serif;
+  font-weight: 400;
 }

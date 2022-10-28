@@ -56,9 +56,10 @@ solução :focus-within
 [OK] Fix focused behavior for navbar items
 [OK] Fix focused box
 
-- Fix fonts
+- Fix fonts: Roobert-Med, sans-serif
 - Create second button
 - Create Language button
 - Hover on main button
 - Create link on logo
+- Fix padding inside nav items
 - Fade when shows

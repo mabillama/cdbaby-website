@@ -964,8 +964,11 @@ nav li a {
 }
 
 nav li a:focus {
+  border-radius: 4px;
   outline: 2px auto #ebebeb;
+  box-shadow: inset 0 0 0 4px rgb(73, 219, 90);
   outline-offset: -2px;
+  transition: all 0.2s ease 0s;
 }
 
 .dropdown a {
@@ -1030,4 +1033,9 @@ nav .nav-button:hover {
   background-color: #f74040;
   color: #ebebeb;
   transition: all 0.3s ease 0s;
+}
+
+nav li.nav-item > a,
+nav li.nav-item-secondary > a {
+  padding: 10px 14px;
 }

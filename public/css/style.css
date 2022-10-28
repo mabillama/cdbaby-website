@@ -233,3 +233,14 @@ nav li a:focus {
   font-family: Roobert-Regular, sans-serif;
   font-weight: 400;
 }
+
+nav a.secondary-nav-link:hover,
+nav a.secondary-nav-link:focus {
+  color: #40bcd0;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a.secondary-nav-link {
+  color: #ebebeb;
+  transition: color 0.3s ease-in-out;
+}

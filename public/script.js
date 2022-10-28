@@ -13,8 +13,6 @@ const navElement = document.querySelector("nav");
 console.log(navElement);
 
 function showSideBar(e) {
-  console.log("clicked");
-
   sideNavClasses = document.getElementById("sideNav");
 
   if (JSON.stringify(sideNavClasses.classList).includes("sideNavClosed")) {
@@ -43,9 +41,15 @@ for (let i = 0; i < chips.length; i++) {
   chips[i].addEventListener("click", clickChip);
 }
 
+const sidemenuLinks = document.getElementsByClassName("sidemenu-link");
+for (let i = 0; i < chips.length; i++) {
+  sidemenuLinks[i].addEventListener("keydown", pressChip);
+}
+
+function pressChip(e) {
+  this.nextSibling.nextSibling.classList.toggle("closed-nav-submenu");
+}
+
 function clickChip(e) {
-  console.log(typeof this);
-  console.log(this.previousSibling.previousSibling);
   this.previousSibling.previousSibling.classList.toggle("closed-nav-submenu");
-  console.log(this);
 }

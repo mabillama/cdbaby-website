@@ -103,6 +103,9 @@ margin
   nav .nav-lg {
     display: none;
   }
+  #lang-select {
+    display: none;
+  }
 }
 
 .mobile-nav {
@@ -299,4 +302,19 @@ nav .nav-button:hover {
 nav li.nav-item > a,
 nav li.nav-item-secondary > a {
   padding: 10px 14px;
+}
+
+nav ul.nav-lg,
+nav button.nav-button {
+  animation: fadein 1s;
+}
+
+/* FADE IN ANIMATION */
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

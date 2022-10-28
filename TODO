@@ -66,8 +66,8 @@ solução :focus-within
 There are some <noscript> snippets on the website's code
 
 [OK] Styles
+[OK] Insert chip
 
-- Insert chip
 - When side-nav appears, remove horizontal scroll
 - Make dropdown menus (javascript)
 - Make dropdown open with keyboard (apparently they didn't implement this feature)

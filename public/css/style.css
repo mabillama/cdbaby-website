@@ -136,6 +136,81 @@ nav.nav-push {
 }
 
 nav {
+  width: 100%;
   transition: all 0.3s ease-in-out;
   margin-left: 0px;
 }
+
+#nav-wrapper {
+  height: 79px;
+}
+
+/* NAVIGATION DROPDOWN */
+
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+}
+
+/* .dropdown a:hover { */
+/* text-decoration: underline; */
+/* background-color: #2c9fb1; */
+/* } */
+
+li.nav-item > a {
+  background: #1f1f30;
+  /* color: #1f1f30; */
+
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+li.nav-item > a:hover,
+li.nav-item > a:focus {
+  background: #40bcd0;
+  color: #1f1f30;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+nav li > a:hover > .dropdown,
+nav li > a:focus > .dropdown {
+  display: block;
+}
+
+li.nav-item:hover > .dropdown,
+li.nav-item:hover > a,
+li.nav-item:focus-within > a + .dropdown,
+li.nav-item:focus-within > a {
+  color: #1f1f30;
+  background: #32b5ca;
+  visibility: visible;
+  opacity: 1;
+  transition: color 0.3s ease-in-out, background 0.3s ease-in-out,
+    visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+li.nav-item > .dropdown {
+  background: transparent;
+  visibility: hidden;
+  opacity: 0;
+  transition: background 0.3s ease-in-out, visibility 0.3s ease-in-out,
+    opacity 0.3s ease-in-out;
+}
+
+nav li.nav-item > a:first-child {
+  border-radius: 5px 5px 0 0;
+  /* transition: border-radius 0s; */
+}
+
+nav li.nav-item .dropdown {
+  border-radius: 0 0 5px 5px;
+  /* transition: border-radius 0s; */
+}
+/* nav li.nav-item:hover > a:first-child {
+  border-radius: 10px 10px 0 0;
+  
+}
+
+nav li.nav-item:hover .dropdown {
+  border-radius: 0 0 10px 10px;
+  
+} */

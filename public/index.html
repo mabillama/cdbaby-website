@@ -12,7 +12,7 @@
       <nav class="bg-black text-white">
         <div
           id="nav-wrapper"
-          class="flex p-6 mx-6 font-['Roobert-Bold'] justify-center"
+          class="flex items-center h-full px-1 mx-4 font-['Roobert-Bold'] justify-center"
         >
           <span class="hamburguer flex"
             ><button
@@ -20,7 +20,7 @@
               aria-label="Show Navigation Menu"
               aria-expanded="false"
               tabindex="0"
-              class="ml-2 mr-5 self-end"
+              class="ml-5 mr-2 self-end"
             >
               <svg viewBox="0 0 100 80" width="30" height="30" fill="cyan">
                 <rect width="100" height="15" rx="4"></rect>
@@ -33,7 +33,7 @@
               data-name="CD Baby logo Blue"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 84 55"
-              fill="cyan"
+              fill="#40bcd0"
               class="h-10"
             >
               <path
@@ -47,24 +47,65 @@
             </svg>
           </div>
           <div class="ml-auto mr-5">
-            <ul class="nav-lg flex justify-between items-center">
-              <li class="inline-block text-center font-bold px-3 py-2">
-                <a href="#" onclick="return false;">Music Distribution</a>
+            <ul class="nav-lg flex justify-between content-center">
+              <li class="nav-item text-center font-bold relative">
+                <a class="px-4 py-3 inline-block" href="#" onclick="return false;">Music Distribution</a>
+                <div class="dropdown absolute w-full box-border overflow-hidden">
+                  <ul class="text-left">
+                    <li class="">
+                      <a class="text-black block px-4 py-3 leading-5 font-light" href="#" onclick="return false;">Trending and Analytics</a>
+                    </li>
+                    <li>
+                      <a class="text-black block px-4 py-3 leading-5" href="#" onclick="return false;">Cover Song Licensing</a>
+                    </li>
+                    <li>
+                      <a class="text-black block px-4 py-3 leading-5" href="#" onclick="return false;">Make CDs</a>
+                    </li>
+                    <li>
+                      <a class="text-black block px-4 py-3 leading-5" href="#" onclick="return false;">CD Baby Stages</a>
+                    </li>
+                  </ul>
+                </div>
               </li>
-              <li class="inline-block text-center font-bold px-3 py-2">
-                <a href="#" onclick="return false;">Boost Your Income</a>
+
+
+
+
+
+              <li class="nav-item inline-block text-center font-bold relative">
+                <a class="px-3 py-2 inline-block" href="#" onclick="return false;">Boost Your Income</a>
+                <div class="dropdown absolute w-full box-border overflow-hidden">
+                  <ul class="text-left">
+                    <li class="">
+                      <a class="text-black block px-4 py-3 leading-5 font-light" href="#" onclick="return false;">Trending and Analytics</a>
+                    </li>
+                    <li>
+                      <a class="text-black block px-4 py-3 leading-5" href="#" onclick="return false;">Cover Song Licensing</a>
+                    </li>
+                    <li>
+                      <a class="text-black block px-4 py-3 leading-5" href="#" onclick="return false;">Make CDs</a>
+                    </li>
+                    <li>
+                      <a class="text-black block px-4 py-3 leading-5" href="#" onclick="return false;">CD Baby Stages</a>
+                    </li>
+                  </ul>
+                </div>
               </li>
-              <li class="inline-block text-center font-bold px-3 py-2">
-                <a href="#" onclick="return false;">Promote Your Music</a>
+
+
+
+
+              <li class="text-center font-bold">
+                <a class="px-3 py-2 inline-block" href="#" onclick="return false;">Promote Your Music</a>
               </li>
-              <li class="inline-block text-center font-bold px-3 py-2">
-                <a href="#" onclick="return false;">Pricing</a>
+              <li class="text-center font-bold">
+                <a class="px-3 py-2 inline-block" href="#" onclick="return false;">Pricing</a>
               </li>
-              <li class="inline-block text-center font-bold px-3 py-2">
-                <a href="#" onclick="return false;">Support</a>
+              <li class="text-center font-bold">
+                <a class="px-3 py-2 inline-block" href="#" onclick="return false;">Support</a>
               </li>
-              <li class="inline-block text-center font-bold px-3 py-2">
-                <a href="#" onclick="return false;">Log In</a>
+              <li class="text-center font-bold">
+                <a class="px-3 py-2 inline-block" href="#" onclick="return false;">Log In</a>
               </li>
             </ul>
           </div>
@@ -86,7 +127,7 @@
 
       <!-- Mobile Nav Div -->
       <div id="sideNav" class="mobile-nav bg-black text-white sideNavClosed">
-        <header class="flex justify-between align-middle">
+        <header class="flex justify-center align-middle mt-8">
           <span class="hamburguer"
             >
             <!-- <button
@@ -103,7 +144,7 @@
               </svg></button
           > -->
         </span>
-          <a href="#" onclick="return false;">GET STARTED</a>
+          <a class="m-auto" href="#" onclick="return false;">GET STARTED</a>
           <button class="">
             <img src="assets/icon-language.webp" alt="" />
           </button>

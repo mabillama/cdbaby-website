@@ -24,8 +24,41 @@ SIDE NAV
 
 [OK]- toggle button disappears from nav and goes to side nav
 [OK] side nav disappears when button is toggled
+[OK] navbar, options disappear
+[OK] toggle button alignment on navbar
+[OK] add transition to nav
 
+SIDE NAV
+
+- if redimensions, hide!
 - sub options appear on +
-  [OK] navbar, options disappear
-  [OK] toggle button alignment on navbar
-  [OK] add transition to nav
+- reformat navbar for hover
+- navbar dropdown
+
+27/10
+
+[OK] dropdown menu for items on navbar
+[OK] to keep the link hovered, javascript
+
+- correct link on navbar
+- correct styling
+- check font
+- check spacing
+- refactor
+- language dropdown
+- modal for clicks
+
+conseguir manter os itens em foco durante a navegação sem perder o :focus dos filhos
+solução :focus-within
+
+28/10
+
+[OK] Fix focused behavior for navbar items
+
+- Fix focused box
+- Fix fonts
+- Create second button
+- Create Language button
+- Hover on main button
+- Create link on logo
+- Fade when shows

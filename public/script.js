@@ -53,3 +53,10 @@ function pressChip(e) {
 function clickChip(e) {
   this.previousSibling.previousSibling.classList.toggle("closed-nav-submenu");
 }
+
+// Preventing horizontal scroll
+let scrollEventHandler = function () {
+  window.scroll(0, window.scrollY);
+};
+
+window.addEventListener("scroll", scrollEventHandler, false);

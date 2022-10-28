@@ -69,8 +69,8 @@ There are some <noscript> snippets on the website's code
 [OK] Insert chip
 [OK] Make dropdown menus (javascript)
 [OK] Make dropdown open with keyboard (apparently they didn't implement this feature)
+[OK] When side-nav appears, remove horizontal scroll
 
-- When side-nav appears, remove horizontal scroll
 - Change the navigation tab order when side-nav appears (remove elements from main nav?)
 - Overlay when side-nav is open
 - Navigation when all open

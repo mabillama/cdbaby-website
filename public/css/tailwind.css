@@ -1170,3 +1170,9 @@ nav button.nav-button {
 .closed-nav-submenu > ul {
   display: none;
 }
+
+/* REMOVING HORIZONTAL SCROLL */
+
+body {
+  overflow-x: hidden;
+}

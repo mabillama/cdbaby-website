@@ -54,8 +54,8 @@ solução :focus-within
 28/10
 
 [OK] Fix focused behavior for navbar items
+[OK] Fix focused box
 
-- Fix focused box
 - Fix fonts
 - Create second button
 - Create Language button

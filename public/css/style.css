@@ -214,3 +214,12 @@ nav li.nav-item:hover .dropdown {
   border-radius: 0 0 10px 10px;
   
 } */
+
+nav li a {
+  text-underline-offset: 3px;
+}
+
+nav li a:focus {
+  outline: 2px auto #ebebeb;
+  outline-offset: -2px;
+}

@@ -115,9 +115,9 @@ margin
   /* background-color: pink; */
 }
 
-.mobile-nav-list {
+/* .mobile-nav-list {
   padding-left: 20px;
-}
+} */
 
 #nav-wrapper {
   max-width: 1050px;
@@ -317,4 +317,25 @@ nav button.nav-button {
   to {
     opacity: 1;
   }
+}
+
+.mobile-nav-list li a {
+  border-bottom: 1px solid #28102e;
+}
+
+.mobile-nav-submenu > .mobile-nav-list li {
+  background-color: #17091b;
+  /* border-bottom: 1px solid #28102e; */
+}
+
+.mobile-nav-list a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+#lang-select-mobile {
+  display: inline-block;
+  height: 30px;
+  padding-right: 22px;
+  padding-top: 5px;
 }

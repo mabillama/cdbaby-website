@@ -1164,3 +1164,9 @@ nav button.nav-button {
   display: block;
   position: absolute;
 }
+
+/* Chip closes javascript */
+
+.closed-nav-submenu > ul {
+  display: none;
+}

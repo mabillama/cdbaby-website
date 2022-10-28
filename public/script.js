@@ -37,3 +37,15 @@ function showSideBar(e) {
 //   console.log(typeof ele);
 //   console.log(overDropdown.caller);
 // }
+
+const chips = document.getElementsByClassName("side-nav-chip");
+for (let i = 0; i < chips.length; i++) {
+  chips[i].addEventListener("click", clickChip);
+}
+
+function clickChip(e) {
+  console.log(typeof this);
+  console.log(this.previousSibling.previousSibling);
+  this.previousSibling.previousSibling.classList.toggle("closed-nav-submenu");
+  console.log(this);
+}

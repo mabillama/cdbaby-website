@@ -57,10 +57,12 @@ solução :focus-within
 [OK] Fix focused box
 [OK] Fix fonts
 [OK] Create second button
+[OK] Create Language button
 
-- Create Language button
 - Hover on main button
 - Create link on logo
 - Fix padding inside nav items
 - Fade when shows
 - Animate focus box
+
+There are some <noscript> snippets on the website's code

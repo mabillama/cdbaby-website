@@ -169,8 +169,8 @@ li.nav-item > a {
   transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-li.nav-item > a:hover,
-li.nav-item > a:focus {
+.nav-item > a:hover,
+.nav-item > a:focus {
   background: #40bcd0;
   color: #1f1f30;
   transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -181,10 +181,10 @@ nav li > a:focus > .dropdown {
   display: block;
 }
 
-li.nav-item:hover > .dropdown,
-li.nav-item:hover > a,
-li.nav-item:focus-within > a + .dropdown,
-li.nav-item:focus-within > a {
+.nav-item:hover > .dropdown,
+.nav-item:hover > a,
+.nav-item:focus-within > a + .dropdown,
+.nav-item:focus-within > a {
   color: #1f1f30;
   background: #32b5ca;
   visibility: visible;
@@ -193,7 +193,7 @@ li.nav-item:focus-within > a {
     visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 
-li.nav-item > .dropdown {
+.nav-item > .dropdown {
   background: transparent;
   visibility: hidden;
   opacity: 0;
@@ -201,12 +201,12 @@ li.nav-item > .dropdown {
     opacity 0.3s ease-in-out;
 }
 
-nav li.nav-item > a:first-child {
+nav .nav-item > a:first-child {
   border-radius: 5px 5px 0 0;
   /* transition: border-radius 0s; */
 }
 
-nav li.nav-item .dropdown {
+nav .nav-item .dropdown {
   border-radius: 0 0 5px 5px;
   /* transition: border-radius 0s; */
 }
@@ -243,4 +243,52 @@ nav a.secondary-nav-link:focus {
 nav a.secondary-nav-link {
   color: #ebebeb;
   transition: color 0.3s ease-in-out;
+}
+
+#lang-select {
+  position: relative;
+}
+
+#lang-select .dropdown {
+  position: absolute;
+  width: 150px;
+  left: -104px;
+  top: 51px;
+}
+
+#lang-select > .chip {
+  opacity: 0;
+  position: absolute;
+  border-color: transparent transparent #40bcd0;
+  border-style: solid;
+  border-width: 20px 11px 9px;
+  content: "";
+  height: 0;
+  left: 1px;
+  top: 22px;
+  width: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#lang-select:hover > .chip {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#lang-select::after {
+  border-color: #ebebeb transparent transparent;
+  border-style: solid;
+  border-width: 5px 4px 0;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  right: -15px;
+  top: 10px;
+}
+
+nav .nav-button:hover {
+  background-color: #f74040;
+  color: #ebebeb;
+  transition: all 0.3s ease 0s;
 }

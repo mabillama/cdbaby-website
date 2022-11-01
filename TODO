@@ -70,7 +70,19 @@ There are some <noscript> snippets on the website's code
 [OK] Make dropdown menus (javascript)
 [OK] Make dropdown open with keyboard (apparently they didn't implement this feature)
 [OK] When side-nav appears, remove horizontal scroll
+[NOT NEEDED] Change the navigation tab order when side-nav appears (remove elements from main nav?)
 
-- Change the navigation tab order when side-nav appears (remove elements from main nav?)
+- Side-nav overflow overlay
 - Overlay when side-nav is open
+- if redimension, close sideNav
 - Navigation when all open
+- Take fonts out of github
+- Fix LogIn button from side-Nav
+- SideNav overlay
+- Change chip to minus
+
+Takeouts
+
+- preventing scroll with window.scroll(0, window.scrollY) and css body{overflow-x: hidden}
+- keydown to toggle class and allow for dropdown menus
+- ::before and ::after pseudo-classes to make chips

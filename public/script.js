@@ -9,8 +9,11 @@ hamburguerButton.addEventListener("click", showSideBar);
 const hamburguerSpanContent = document.querySelector(".hamburguer").innerHTML;
 const hamClasses = document.querySelectorAll(".hamburguer");
 const navElement = document.querySelector("nav");
+const mainOverlay = document.getElementById("main-overflow");
 
 console.log(navElement);
+
+let isSideNavOpen = false;
 
 function showSideBar(e) {
   sideNavClasses = document.getElementById("sideNav");
@@ -19,22 +22,42 @@ function showSideBar(e) {
     hamClasses[0].removeChild;
     hamClasses[1].append(hamburguerButton);
     navElement.classList.add("nav-push");
+
+    mainOverlay.classList.toggle("overflowed");
+
+    let opacity = 0;
+    let interval = setInterval(() => {
+      let opacity = +mainOverlay.style.opacity + 0.4;
+
+      mainOverlay.style.opacity = opacity.toString();
+      if (opacity >= 1) {
+        mainOverlay.style.opacity = "1";
+        clearInterval(interval);
+      }
+    }, 50);
   } else {
     hamClasses[1].removeChild;
     hamClasses[0].append(hamburguerButton);
     navElement.classList.remove("nav-push");
+
+    let opacity = 1;
+    let interval = setInterval(() => {
+      let opacity = +mainOverlay.style.opacity - 0.2;
+
+      mainOverlay.style.opacity = opacity.toString();
+      if (opacity <= 0) {
+        mainOverlay.style.opacity = "0";
+
+        const overlayTimeout = setTimeout(() => {
+          mainOverlay.classList.toggle("overflowed");
+        }, 500);
+
+        clearInterval(interval);
+      }
+    }, 50);
   }
   sideNavClasses.classList.toggle("sideNavClosed");
 }
-
-// function overDropdown(e, ele) {
-//   console.log("over");
-//   console.log(ele);
-//   console.log(e);
-
-//   console.log(typeof ele);
-//   console.log(overDropdown.caller);
-// }
 
 const chips = document.getElementsByClassName("side-nav-chip");
 for (let i = 0; i < chips.length; i++) {

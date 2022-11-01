@@ -1176,3 +1176,44 @@ nav button.nav-button {
 body {
   overflow-x: hidden;
 }
+
+/* sideNav-overflow */
+
+.sideNav-overflow {
+  background: transparent url("../assets/nav-overflow.png");
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 60px;
+  width: 250px;
+}
+
+/* main body overflow */
+
+.main-overflow-on {
+  background: transparent url("../assets/ui-grain-dots.webp");
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 10;
+  opacity: 0;
+  display: none;
+  /* transition: opacity 0.3s ease-in, display ease-in 0.4s; */
+}
+
+.overflowed {
+  display: block;
+  opacity: 0;
+  transition: opacity 0.1s ease-in;
+}
+
+.on {
+  opacity: 1;
+  /* transition: opacity 0.3s ease-in 0.2s; */
+}
+
+/* TODO: place on correct class */
+
+#sideNav {
+  z-index: 20;
+}

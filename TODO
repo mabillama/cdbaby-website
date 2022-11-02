@@ -1,4 +1,88 @@
 - project structure
+- Navbar
 - import tailwind
 
 next project https://www.taskade.com/
+
+- What if the client doesn't have javascript enabled?
+
+NAVBAR
+
+- Basic styling for main navbar (basis/justify/padding/margin)
+- Responsive behavior (when hitting media queries)
+- Hover dropdown navigation for the main navbar
+- Language dropdown
+- Animate side menu (in and out)
+- Basic styling for side navbar (basis/justify/padding/margin)
+- Hover for buttons
+- Refactor classes (for buttons, mostly)
+- Refactor CSS
+
+Navbar is probably the most difficult part of the site. Interesting one to work on
+
+SIDE NAV
+
+[OK]- toggle button disappears from nav and goes to side nav
+[OK] side nav disappears when button is toggled
+[OK] navbar, options disappear
+[OK] toggle button alignment on navbar
+[OK] add transition to nav
+
+SIDE NAV
+
+- if redimensions, hide!
+- sub options appear on +
+- reformat navbar for hover
+- navbar dropdown
+
+27/10
+
+[OK] dropdown menu for items on navbar
+[OK] to keep the link hovered, javascript
+
+- correct link on navbar
+- correct styling
+- check font
+- check spacing
+- refactor
+- language dropdown
+- modal for clicks
+
+conseguir manter os itens em foco durante a navegação sem perder o :focus dos filhos
+solução :focus-within
+
+28/10
+
+[OK] Fix focused behavior for navbar items
+[OK] Fix focused box
+[OK] Fix fonts
+[OK] Create second button
+[OK] Create Language button
+[OK] Hover on main button
+[OK] Create link on logo
+[OK] Fix padding inside nav items
+[OK] Animate focus box
+
+There are some <noscript> snippets on the website's code
+
+[OK] Styles
+[OK] Insert chip
+[OK] Make dropdown menus (javascript)
+[OK] Make dropdown open with keyboard (apparently they didn't implement this feature)
+[OK] When side-nav appears, remove horizontal scroll
+[NOT NEEDED] Change the navigation tab order when side-nav appears (remove elements from main nav?)
+
+- Side-nav overflow overlay
+- Overlay when side-nav is open
+- if redimension, close sideNav
+- Navigation when all open
+- Take fonts out of github
+- Fix LogIn button from side-Nav
+- SideNav overlay
+- Change chip to minus
+
+Takeouts
+
+- preventing scroll with window.scroll(0, window.scrollY) and css body{overflow-x: hidden}
+- keydown to toggle class and allow for dropdown menus
+- ::before and ::after pseudo-classes to make chips

@@ -86,3 +86,17 @@ Takeouts
 - preventing scroll with window.scroll(0, window.scrollY) and css body{overflow-x: hidden}
 - keydown to toggle class and allow for dropdown menus
 - ::before and ::after pseudo-classes to make chips
+
+MAIN - Hero
+
+[OK] Content
+[OK] Background
+
+- Responsive behavior
+- Button hover
+- Font Merriweather
+- Hero line-height
+
+Takeouts
+
+- Inserting line break on hero title actually made the div occupy less space

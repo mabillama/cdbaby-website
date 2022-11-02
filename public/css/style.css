@@ -419,3 +419,23 @@ body {
 #sideNav {
   z-index: 20;
 }
+
+/* HERO SECTION */
+
+#primary {
+  background: url("../assets/CDB_Campaigns_499Sale-Phase2_Website_HeroBG-1010x576.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-2 {
+  background: url("../assets/CDB_Campaigns_499Sale_Website_HeroBG-1280x768.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 300px; */
+}
+
+.main-section {
+  height: 630px;
+  background-color: #ebebeb;
+}

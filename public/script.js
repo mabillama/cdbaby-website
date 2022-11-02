@@ -1,6 +1,5 @@
 let data = document.getElementById("primary");
 console.log(data);
-data.innerText = "clog";
 
 let hamburguerButton = document.getElementById("tablet-hamburguer");
 console.log(hamburguerButton);

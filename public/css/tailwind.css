@@ -579,6 +579,11 @@ video {
   margin-right: auto;
 }
 
+.my-7 {
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
 .ml-5 {
   margin-left: 1.25rem;
 }
@@ -601,6 +606,14 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-11 {
+  margin-top: 2.75rem;
 }
 
 .box-border {
@@ -629,6 +642,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.max-w-5xl {
+  max-width: 64rem;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .content-center {
@@ -703,6 +724,26 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.px-9 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .pl-3 {
   padding-left: 0.75rem;
 }
@@ -713,6 +754,10 @@ video {
 
 .pr-10 {
   padding-right: 2.5rem;
+}
+
+.pr-14 {
+  padding-right: 3.5rem;
 }
 
 .text-left {
@@ -736,8 +781,27 @@ video {
   line-height: 1.75rem;
 }
 
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .leading-5 {
@@ -757,6 +821,16 @@ video {
 .text-cyan {
   --tw-text-opacity: 1;
   color: rgb(64 188 208 / var(--tw-text-opacity));
+}
+
+.text-yellow {
+  --tw-text-opacity: 1;
+  color: rgb(249 230 6 / var(--tw-text-opacity));
+}
+
+.text-blue {
+  --tw-text-opacity: 1;
+  color: rgb(43 56 176 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1216,4 +1290,24 @@ body {
 
 #sideNav {
   z-index: 20;
+}
+
+/* HERO SECTION */
+
+#primary {
+  background: url("../assets/CDB_Campaigns_499Sale-Phase2_Website_HeroBG-1010x576.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-2 {
+  background: url("../assets/CDB_Campaigns_499Sale_Website_HeroBG-1280x768.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 300px; */
+}
+
+.main-section {
+  height: 630px;
+  background-color: #ebebeb;
 }

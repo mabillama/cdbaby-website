@@ -100,3 +100,4 @@ MAIN - Hero
 Takeouts
 
 - Inserting line break on hero title actually made the div occupy less space
+- How does lazy load works
